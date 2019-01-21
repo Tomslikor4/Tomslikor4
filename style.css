@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Playfair+Display:900|Open+Sans');
+
+/*
+Variables
+*/
+:root {
+/*Colors:*/
+    --title-col: rgb(2, 46, 112); 
+    --titel-bgcol: rgb(201, 228, 252);
+    --tab-bgcol: rgb(114, 187, 255);
+    --page-pgcol: rgb(229, 241, 252);
+    
+/*Sizes*/
+    --ul-height: 10px;
+    --tab-fwid: 300px
+}
+
+body {
+    
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 400px;
+    background: var(--page-pgcol);
+    font-family: 'Open Sans', sans-serif;
+}
+
+body:after {
+    content: "Made by Chrigi";
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    color: #919191;
+    font-size: 10pt;
+    text-align: right;
+}
+
+#everything {
+    text-align: justify;
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.prod {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.right {
+    margin: 10px;
+}
+
+#tabs {
+
+    z-index: 100;
+    margin-left: -10px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    font-size: 20pt;
+    top: var(--ul-height);
+    padding-bottom: 10px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: var(--tab-fwid) var(--tab-fwid) 1fr;
+}
+
+.tab {
+    position: relative;
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 40px;
+    background-color: var(--tab-bgcol);
+    border-bottom-right-radius: 25px;
+    border-style: solid;
+    border-color: var(--title-col);
+    border-width: 8px
+}
+
+#curr_tab {
+    background-color: rgb(91, 153, 239);
+}
+
+#last_tab {
+    margin-right: -10px;
+    border-right-width: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+h1 {    
+    padding: 20px;
+    padding-left: 50px;
+    margin: 0px;
+    color: var(--title-col);
+    font-size: 48pt;
+    font-family: 'Playfair Display', sans-serif;
+    background-color: var(--titel-bgcol)
+}
+
+#underlh1 {
+    z-index: 100;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    height: var(--ul-height);;
+    background-color: var(--title-col);
+}
+
+img {
+    padding: 0px;
+    margin: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
+a {
+    color: rgb(28, 33, 104);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    vertical-align: bottom;
+}
+*/
+  
