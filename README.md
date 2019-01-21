@@ -1,3 +1,3 @@
-## Webseite von Toms Likör
+## Webseite von Toms LikÃ¶r
 
-[Bsuech d Siite](https://tomslikor4.github.io/Tomslikor4/ "Intro HTML")
+[Bsuech d Siite](https://tomslikor4.github.io/tomslikor4/ "Intro HTML")
