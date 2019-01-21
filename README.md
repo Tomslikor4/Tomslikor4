@@ -1,3 +1,3 @@
-## Your GitHub Learning Lab Repository for Intro to HTML
+## Webseite von Toms Likör
 
-[Bsuech d Siite](https://chbauman.github.io/intro-html/ "Intro HTML")
+[Bsuech d Siite](https://tomslikor4.github.io/Tomslikor4/ "Intro HTML")
