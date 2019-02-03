@@ -6,10 +6,10 @@ Variables
 :root {
 /*Colors:*/
     --title-col: rgb(0, 0, 0); 
-    --titel-bgcol: rgb(237, 247, 44);
-    --tab-bgcol: rgb(114, 187, 255);
-    --curr-tab-bgcol: rgb(91, 153, 239);
-    --page-pgcol: rgb(240, 244, 151);
+    --titel-bgcol: rgb(255, 225, 0);
+    --tab-bgcol: rgb(255, 148, 0);
+    --curr-tab-bgcol: rgb(252, 82, 34);
+    --page-pgcol: rgb(252, 248, 191);
     
 /*Sizes*/
     --ul-height: 10px;
