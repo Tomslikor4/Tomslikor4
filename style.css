@@ -8,6 +8,7 @@ Variables
     --title-col: rgb(0, 0, 0); 
     --titel-bgcol: rgb(237, 247, 44);
     --tab-bgcol: rgb(114, 187, 255);
+    --curr-tab-bgcol: rgb(91, 153, 239);
     --page-pgcol: rgb(240, 244, 151);
     
 /*Sizes*/
@@ -85,7 +86,7 @@ div {
 }
 
 #curr_tab {
-    background-color: rgb(91, 153, 239);
+    background-color: var(--curr-tab-bgcol);
 }
 
 #last_tab {
