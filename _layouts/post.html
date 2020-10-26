@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{%- include header.html -%}
+
+<!-- Main -->
+<div id="main">
+	<!-- Post -->
+	<article class="shade-two">
+	  <div class="container">
+	  <div class="row">
+			<header>
+				<h2>{{- page.title -}}</h2>
+				<!--<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>-->
+			</header>
+	  </div>
+	  <div class="row">
+	    {% if page.img %}
+	    <div class="3u 12u$(mobile)">
+ 	      <a href="#" class="image fit"><img src="/jekyll-theme-prologue/assets/images/{{- page.img -}}" alt="{{- page.title -}}" /></a>
+            </div>
+	    <div class="9u 12u$(mobile)">
+ 	    {% else %}
+	    <div class="col">
+	    {% endif %}
+	      {{- content -}}
+	    </div>
+	  </div>
+	  </div>
+	</article>
+</div>
