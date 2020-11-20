@@ -1,0 +1,11 @@
+---
+title: Birnenlikör
+author: Tom
+layout: post
+icon: fa-wine-glass
+---
+Der Birnenlikör wird hergestellt aus regionalen und frischen Birnen.
+Diese sind handerlesen und im perfekten Reifestadium.
+
+Durch die beschaffenheit der Birne erhält der Likör seine goldene Farbe.
+Dieser Likör ist fruchtig-süss im Geschmack und lässt sich zu beinah allem kombinieren.
