@@ -1,11 +1,10 @@
 ---
-title: Birnenlikör
+title: Apfel-Zimtlikör
 author: Tom
 layout: post
 icon: fa-wine-glass
 ---
-Der Birnenlikör wird hergestellt aus regionalen und frischen Birnen.
+Der Apfel-Zimtlikör wird hergestellt aus regionalen und frischen Äpfeln.
 Diese sind handerlesen und im perfekten Reifestadium.
-
-Durch die beschaffenheit der Birne erhält der Likör seine goldene Farbe.
-Dieser Likör ist fruchtig-süss im Geschmack und lässt sich zu beinah allem kombinieren.
+Der Likör hat eine gelbe Farbe mit brauen Pünktchen.
+Dieser Likör ist fruchtig-zimtig und erinnert schon fast an den Winter.
